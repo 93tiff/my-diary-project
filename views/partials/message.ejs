@@ -1,0 +1,21 @@
+<!--如果error_msg不等於empty string-->
+<% if (error_msg !=""){ %>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong><%= error_msg %> </strong>
+</div>
+<% } %>
+<!--上面div的內容照影片打的，講師是複製bootstrap的語法-->
+<!--break-->
+
+<% if (error !=""){ %>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong><%= error %> </strong>
+</div>
+<% } %>
+
+<!--break-->
+<% if (sucess_msg !=""){ %>
+<div class="alert alert-sucess alert-dismissible fade show" role="alert">
+  <strong><%= sucess_msg %> </strong>
+</div>
+<% } %>
